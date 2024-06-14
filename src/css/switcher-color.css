@@ -65,3 +65,12 @@ body::before {
 .nav-button:hover {
   background-color: #0056b3;
 }
+
+.nav-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.nav-button:hover:enabled {
+  background-color: #0056b3;
+}
